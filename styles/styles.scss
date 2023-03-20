@@ -1,0 +1,62 @@
+@import url(_rainbow_text.scss);
+
+header {
+    background: whitesmoke;
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1vh;
+    gap: 1vh;
+    filter: drop-shadow(0 0 0.1vh #000);
+}
+
+h1 {
+    font-size: 5vh;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 
+    3px 3px 12px rgba(0, 0, 0, 0.4), 
+    2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff3300;
+    cursor: pointer;
+}
+
+.card {
+    width: 15vw;
+}
+
+.card:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.prdel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    padding: 1vh;
+    filter: drop-shadow(0 0 0.1vh #000);
+}
