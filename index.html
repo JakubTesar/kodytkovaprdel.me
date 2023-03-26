@@ -10,20 +10,67 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
             crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    
     <meta name="theme-color" content="#F542DA">
     <meta content="kodytkovaprdel.me" property="og:site_name">
     <meta content="Kodytkova ÚŽASNÁ prdel" property="og:title">
     <meta content="THAT MASSIVE ASS" property="og:description">
     <meta content="http://kodytkovaprdel.me/prdele/001.jpg" property="og:image">
-
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </head>
+<style>
+    img{
+        height: 500px;
+        width: 500px;
+    }
+    .bg-nav-dark-light{
+        background-color: #555555;
+    }
+    #shadowBox {
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.2);
+        /* Black w/opacity/see-through */
+        border: 3px solid;
+    }
+
+    .rainbow {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 32px;
+        font-family: monospace;
+        letter-spacing: 5px;
+        animation: colorRotate 6s linear 0s infinite;
+    }
+
+    @keyframes colorRotate {
+        from {
+            color: #6666ff;
+        }
+        10% {
+            color: #0099ff;
+        }
+        50% {
+            color: #00ff00;
+        }
+        75% {
+            color: #ff3399;
+        }
+        100% {
+            color: #6666ff;
+        }
+    }
+    @media(max-width: 600px) {
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+</style>
 <body class="bg-dark text-white">
 <nav class="navbar navbar-expand-lg navbar-dark bg-nav-dark-light text-white mb-5 px-5 border-white border-bottom p-3">
     Něco něco budoucí navigace, aby se v těch prdelích někdo vyznal
@@ -33,7 +80,6 @@
     <h1 class="rainbow">Welcum to KodytkovaPrdel.me</h1>
 </div>
 <div class="d-flex justify-content-center flex-wrap gap-4">
-
     <div class="w-25">
         <h2>Samík</h2>
         <swiper-container navigation="true">
@@ -54,6 +100,7 @@
             <swiper-slide><img src="prdele/plodik/002.jpg"/></swiper-slide>
         </swiper-container>
     </div>
+
 
     <div class="w-25">
         <h2>Vampík</h2>
